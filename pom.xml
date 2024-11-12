@@ -67,6 +67,7 @@
         </dependency>
     </dependencies>
 
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -178,6 +179,7 @@
                         </executions>
                     </plugin>
                 </plugins>
+                <finalName>awslambda</finalName>
             </build>
         </profile>
     </profiles>
