@@ -7,7 +7,5 @@ COPY ./target/awslambda.jar /app
 # Expose the port the Spring Boot application will run on
 EXPOSE 8080
 
-
-
 ## Command to run the application
 CMD ["java", "-jar", "awslambda.jar"]
